@@ -42,7 +42,7 @@ type Result struct {
 
 func main() {
 
-	db, err := gorm.Open("mysql", "root:Sreekanth*1@/go_rest_api_crud?charset=utf8&parseTime=True")
+	db, err := gorm.Open("mysql", "root:<password>@/go_rest_api_crud?charset=utf8&parseTime=True")
 
 	if err != nil {
 		log.Println("Connection failed", err)
